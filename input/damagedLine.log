@@ -1,0 +1,4 @@
+#Fields: date time time-taken c-ip cs-username cs-auth-group x-exception-id sc-filter-result cs-categories cs(Referer) sc-status s-action cs-method rs(Content-Type) cs-uri-scheme cs-host cs-uri-port cs-uri-path cs-uri-query cs-uri-extension cs(User-Agent) s-ip sc-bytes cs-bytes x-virus-id
+#Remark: 2610140037 "SG-42" "82.137.200.42" "main"
+2011-08-04 21:00:00 11 0.0.0.0 - - - OBSERVED "unavailable" -
+2011-08-04 21:00:00 168 0.0.0.0 - - - OBSERVED "unavailable" http://s7.addthis.com/static/r07/sh47.html  200 TCP_NC_MISS GET image/gif http l.addthiscdn.com 80 /live/t00/250lo.gif ?euys1x&uid=4de5b81aa16972b8&pub=addxvideos&rev=102809&si=4e293d0aea730a77&lc=MDAwMDBBU1NZMDAyMTM1MjE2MzAwMDAwMDAwVg%3D%3D&ln=ar&pc=men&cb=1&uf=0&ct=1&lt=49&pi=2&dp=www.xvideos.com&fp=new%2F44%2F%26usg%3DALkJrhgVhqh5vy2fCRlCsTetuyHQgUeCwg gif "Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0" 82.137.200.42 389 594 -
