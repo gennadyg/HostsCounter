@@ -1,5 +1,7 @@
 package com.general.validation;
 
+import java.util.Arrays;
+
 /**
  * Created by Gennady on 4/19/2016.
  *
@@ -14,6 +16,11 @@ public class LineValidator {
         if( ( line != null ) && ( line.length > 0 ) && line.length >= location ){
 
             ret = true;
+
+        }else{
+            String joined = String.join("", Arrays.asList( line ));
+            System.out.println("Line - " + joined + " doesn't contain data at location [" + location + "]");
+
         }
         return ret;
     }

@@ -99,6 +99,8 @@ public class FileDataReader implements DataReader{
                     if( ( LineValidator.isLineValueValid( nextLine, DataElementsLocations.HostName.location) )){
 
                         String hostNameFound = nextLine[DataElementsLocations.HostName.location];
+                        // TODO: should be added hostname validation( domain/ip ),
+                        // excluding bad requests that print hostname '-'
                         if( hostnamesCounts.containsKey( hostNameFound )){
 
                             hostnamesCounts.put( hostNameFound, hostnamesCounts.get( hostNameFound ) + 1 );
