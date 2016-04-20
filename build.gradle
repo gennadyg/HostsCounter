@@ -24,7 +24,7 @@ dependencies {
 
     compile 'com.opencsv:opencsv:3.7'
 }
-task executeJar(type: OneJar) {
+task createExecutableJar(type: OneJar) {
     mainClass = 'com.general.main.MainApplication'
 }
 test {
@@ -32,4 +32,9 @@ test {
         // Show that tests are run in the command-line output
         events 'started', 'passed'
     }
+}
+task runFinalJar(type: JavaExec) {
+    classpath = files('build/libs/HostsCounter-1.0.1-standalone.jar')
+    classpath += sourceSets.main.runtimeClasspath
+    main = 'com.general.main.MainApplication'
 }
